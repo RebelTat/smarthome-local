@@ -30,6 +30,7 @@ function SmartHome() {
     this.requestSync.addEventListener('click', async () => {
       try {
         const response = await fetch('/requestsync');
+        /* A ternary operator. It is a shorthand for an if/else statement. */
         console.log(response.status == 200 ?
           'Request SYNC success!' : `Request SYNC unexpected status: ${response.status}`);
       } catch (err) {
@@ -104,6 +105,7 @@ SmartHome.prototype.updateState = () => {
   };
 
 
+  /* Printing the value of `pkg` to the console. */
   console.log(pkg);
   firebase.database().ref('/').child('washer').set(pkg);
 }

@@ -3,6 +3,7 @@
         "fakeauth",
         "faketoken",
         "Homegraph",
+        "pausable",
         "reportstate",
         "requestsync",
         "responseurl",
