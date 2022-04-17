@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "hint": "^6.1.11"
+  }
+}
