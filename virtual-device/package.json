@@ -10,7 +10,7 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "yargs": "12.0.5",
+    "yargs": "13.2.4",
     "axios": "^0.21.2",
     "express": "4.17.1",
     "winston": "3.2.1"
